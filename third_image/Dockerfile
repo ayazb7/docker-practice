@@ -2,6 +2,6 @@ FROM ubuntu:22.04
 
 RUN apt update
 
-WORKDIR /app
-
 RUN apt install -y git
+
+WORKDIR /app
